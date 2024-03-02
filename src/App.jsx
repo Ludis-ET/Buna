@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar";
 import Services from "./components/Services/Services.jsx";
 import Banner from "./components/Banner/Banner.jsx";
 import AppStore from "./components/AppStore/AppStore.jsx";
