@@ -26,7 +26,7 @@ const Hero = () => {
               </h1>
               <div data-aos="fade-up" data-aos-delay="400">
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
-                  Coffee And Code
+                  Ethiopian Coffee
                 </button>
               </div>
             </div>
@@ -46,7 +46,7 @@ const Hero = () => {
                 data-aos="fade-left"
                 className="bg-gradient-to-r from-primary to-secondary p-3 rounded-xl absolute top-10 left-10"
               >
-                <h1 className="text-white">Hey Coder</h1>
+                <h1 className="text-white">From Ethiopia</h1>
               </div>
               <div
                 data-aos="fade-right"

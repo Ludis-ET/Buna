@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import {  FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa6";
 import FooterBg from "../../assets/website/coffee-footer.jpg";
 
 const FooterLinks = [
@@ -48,11 +48,11 @@ const Footer = () => {
               Espresso Escape
             </p>
             <a
-              href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
+              href="mailto:leulsegedmelaku1020@gmail.com"
               target="_blank"
               className="inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full"
             >
-              Visit our YouTube Channel
+              email me
             </a>
           </div>
 
@@ -100,18 +100,18 @@ const Footer = () => {
                 Address
               </h1>
               <div>
-                <p className="mb-3">Noida , Uttar Pradesh</p>
-                <p>+91 1234567890</p>
+                <p className="mb-3">Addis Ababa, Ethiopia</p>
+                <p>+251 991173792</p>
 
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
-                  <a href="#">
+                  <a href="https://instagram.com/lulsgd">
                     <FaInstagram className="text-3xl hover:text-primary duration-300" />
                   </a>
-                  <a href="#">
-                    <FaFacebook className="text-3xl hover:text-primary duration-200" />
+                  <a href="https://t.me/lulsgd">
+                    <FaTelegram className="text-3xl hover:text-primary duration-200" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/lulsgd/">
                     <FaLinkedin className="text-3xl hover:text-primary duration-200" />
                   </a>
                 </div>
